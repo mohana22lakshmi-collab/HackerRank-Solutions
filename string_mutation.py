@@ -1,3 +1,7 @@
+# Problem: Mutations
+# Platform: HackerRank
+# Domain: Python
+# Description: Modify a specific character in a string by converting it into a list and updating the index.
 def mutate_string(string, position, character):
     return string[:position] + character + string[position+1:]
 
