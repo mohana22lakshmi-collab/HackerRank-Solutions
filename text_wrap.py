@@ -1,3 +1,7 @@
+# Problem: Text Wrap
+# Platform: HackerRank
+# Domain: Python
+# Description: Wrap a given string into a paragraph of fixed width using text formatting.
 import textwrap
 
 def wrap(string, max_width):
