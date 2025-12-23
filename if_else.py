@@ -1,3 +1,7 @@
+# Problem: Python If-Else
+# Platform: HackerRank
+# Domain: Python
+# Description: Use conditional statements to determine and print output based on given conditions.
 n=int(input())
 if(n%2==0):
     if(n>=2 and n<=5):
