@@ -1,4 +1,7 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
+# Problem: Collections.Counter()
+# Platform: HackerRank
+# Domain: Python
+# Description: Use the Counter class from the collections module to count occurrences of elements.
 from collections import Counter
 
 # Input
