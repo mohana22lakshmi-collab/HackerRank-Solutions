@@ -1,0 +1,14 @@
+# Problem: Write a Function (Leap Year)
+# Platform: HackerRank
+# Domain: Python
+# Description: Determine whether a given year is a leap year using conditional logic.
+def is_leap(year):
+    leap = False
+    
+    if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+        leap = True 
+    
+    return leap
+
+year = int(input())
+print(is_leap(year))
